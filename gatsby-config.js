@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'John Doe',
+    title: 'Babur Kerim Incedayi',
     description:
       'John Doe is a lifestyle photographer based in San Francisco, CA',
     url: 'https://gatsby-starter-amsterdam.netlify.com',
     author: 'John Doe',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'John Doe is a lifestyle photographer based in San Francisco, CA',
+    intro: 'John Doe is a lifestyle photographer based in San Francisco, CA ',
     menuLinks: [
       {
-        name: 'John Doe',
+        name: 'Babur Kerim Incedayi',
         slug: '/',
       },
       {
@@ -27,7 +27,9 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-theme-amsterdam',
-      options: {},
+      options: {
+        grid: 'basic',
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

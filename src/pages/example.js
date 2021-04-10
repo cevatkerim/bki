@@ -79,7 +79,7 @@ const ExamplePage = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Gatsby Theme Amsterdam GitHub Repo
+            Gatsby Theme Amsterdam 
           </a>
           .
         </p>
